@@ -3,8 +3,78 @@
 COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
-grey - #95a5a6;
+grey - rgba(225, 225, 225, .9);
 red - #ee5253
 
 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgba(225, 225, 225, .9);
+}
 
+header {
+    font-size: 18px;
+    padding: 5px;
+    background-color: #0fb9b1;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    background-image: url("./assets/burger-friends.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: rgba(225, 225, 225, .9);
+    padding: 20px;
+    margin-top: 40px;
+    height: 300;
+    width: 350;
+    
+} 
+
+.add-recipe-button {
+    background-color:rgba(225, 225, 225, .9);
+    padding: 10px;
+    border-radius: 10px; 
+    border: none;
+}
+
+.meal-form-card p {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.meal-form {
+    margin-right: 90px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+} 
+
+.meal-form-button {
+    background-color: #0fb9b1;
+    width: 130px;
+} 
+
+.populate-meal-card {
+    margin-left: 90px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookpot {
+    height: 130px;
+}

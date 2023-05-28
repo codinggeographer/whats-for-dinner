@@ -4,7 +4,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <header>
+      <p>What's for Dinner?</p>
+      <button class="add-recipe-button" id="recipe-submit">ADD A RECIPE</button>
+    </header>
+    <main>
+      <section class="meal-form-card" id="form-card-container">
+        <form class="meal-form" id="meal-form-container" action="">
+          <p>What are you looking for?<span style="color:#ee5253">*</span></p>
+          <label for="side">
+            <input type="radio" id="side-input" name="side"/>Side
+          </label>
+          <label for="main-dish">
+            <input type="radio" id="main-dish-input" name="main-dish"/>Main Dish
+          </label>
+          <label for="dessert">
+            <input type="radio" id="dessert-input" name="dessert"/>Dessert
+          </label>
+          <label for="entire-meal">
+            <input type="radio" id="entire-meal-input" name="entire-meal"/>Entire Meal
+          </label>
+          <button class="meal-form-button" id="meal-form-submit">LET'S COOK!</button>
+        </form>
+      </section>
+      <section class="populate-meal-card" id="meal-card-container">
+        <img class="cookpot" id="cookpot-icon" src="./assets/cookpot.svg" alt="Cook pot"/>
+        <p id="populate-meal"></p>
+      </section>
+    </main>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
